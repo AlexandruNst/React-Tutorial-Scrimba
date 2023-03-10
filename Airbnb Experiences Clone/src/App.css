@@ -63,6 +63,7 @@ main {
 .card {
   position: relative;
   width: 175px;
+  flex-shrink: 0;
 }
 
 .card--status {
@@ -108,4 +109,10 @@ main {
 
 .card--price span {
   font-weight: 600;
+}
+
+.cards-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
 }
